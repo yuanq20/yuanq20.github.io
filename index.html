@@ -1,22 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>quan小站</title>
     <meta charset="UTF-8">
-    <title>首页</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="stylesheet" type="text/css" href="css/index.css?v=20230601" >
 </head>
 <body>
-
-<h1>hello willing !</h1>
-<br />
-<br />
-<a href="html/1-java/1-test.html">1-test.html</a> <br />
-<a href="html/2-bigdata/1-datax.html">1-datax.html</a> <br />
-<a href="html/2-bigdata/2-test.html">2-test.html</a> <br />
-
-<br />
-<br />
-
-<img src="../../images/weixin.jpg" width="150px"/> <br />
-扫码关注，用不迷路 ^^
+<div id="parent_ctn">
+    <div id="ctn">
+        <div id="qy_header">
+            <ul>
+                <li><a href="#">主页</a></li>
+                <li><a href="#a_pages">技术随笔</a></li>
+                <li><a href="#a_life">生活</a></li>
+                <li><a href="#a_about">About me</a></li>
+            </ul>
+        </div>
+        <div id="qy_content">
+            <div id="qy_content_pages">
+                <div class="clink"><a id="a_pages"></a>技术随笔</div>
+                <div class="title">
+                    <div class="title_txt"># 文章汇总</div>
+                    <ul>
+                        <li><a href="https://mp.weixin.qq.com/s?__biz=MzIyMzIzODg5MA==&mid=2247483694&idx=1&sn=d01a7c05b171d4b0ce9cbcc938860e4f&chksm=e8200eabdf5787bde64d2b561c7b0f115f17fc6a926235e2bac66187292beb0455bb88491062&token=183746550&lang=zh_CN#rd">工作流Camunda应用</a></li>
+                        <li><a href="https://mp.weixin.qq.com/s?__biz=MzIyMzIzODg5MA==&mid=2247483689&idx=1&sn=fa34cf81d349cecf422d5ae0abeb0df8&chksm=e8200eacdf5787ba397f85d08a4dff6ffc7432e5bc356656ca544387aa5c160a003d1a5be07b&token=183746550&lang=zh_CN#rd">java instrumentation探究</a></li>
+                    </ul>
+                </div>
+                <div class="title">
+                    <div class="title_txt"># 工具集</div>
+                    <ul>
+                        <li><a href="https://mp.weixin.qq.com/s?__biz=MzIyMzIzODg5MA==&mid=2247483677&idx=1&sn=fedc1661a97953a2c4ee44b13f433e21&chksm=e8200e98df57878e778ec1d705b7b0747b50fc5d795311b955971ba1e38b8778da151a512f90&token=183746550&lang=zh_CN#rd">Git命令速查（转）</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="qy_content_life">
+                <div class="clink"><a id="a_life"></a>生活</div>
+                <div class="title">
+                    <div class="title_txt">点滴印象</div>
+                    <ul>
+                        <li><a href="https://mp.weixin.qq.com/s?__biz=MzIyMzIzODg5MA==&mid=2247483680&idx=1&sn=d9e8fb4955ef658303c4b2a719c8d24f&chksm=e8200ea5df5787b32be18ba4b970f3cadfa72a1cc6c90cf8f1ed42fc6647cdd597f94911e792&token=183746550&lang=zh_CN#rd">网站上线啦</a></li>
+                        <li><a href="https://mp.weixin.qq.com/s?__biz=MzIyMzIzODg5MA==&mid=2247483673&idx=1&sn=988c0ae24a40fd49bcb0bbdb7fdd071a&chksm=e8200e9cdf57878a71bc4510a1e9731172d7ca6176522e0858848a10c49694b1ae369fd10b6e&token=183746550&lang=zh_CN#rd">06.21日记</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="qy_content_about">
+                <div class="clink"><a id="a_about"></a>About me</div>
+                <div class="title">
+                    编码是我的专业。用语言创造出优秀的软件，用代码创造了无数奇迹，让生活更加便捷。<br/>
+                    键盘是我的武器，思维是我的力量，让计算机听懂我的声音。<br/>
+                    Talk is cheap, show me the code! <br/>
+                    <a href="#" id="a_home">Github</a>
+                </div>
+            </div>
+        </div>
+        <div id="qy_bottom">
+            <img src="../../images/weixin.jpg" width="150px"/> <br />
+            扫码关注，不迷路
+        </div>
+    </div>
+</div>
 </body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/index.js?v=20230601"></script>
 </html>
