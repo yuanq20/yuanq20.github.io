@@ -38,8 +38,8 @@ div {
 #ctn {
     margin: auto;
     color: #999;
-    min-width: 1024px;
-    width: 66%;
+    /*min-width: 1024px;*/
+    width: 80%;
     background-color: #EDF0FE;
     position: absolute;
     left: 50%;
